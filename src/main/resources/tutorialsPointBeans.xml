@@ -1,0 +1,84 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <context:annotation-config/>
+
+
+<!--    <bean id = "helloWorldPrototype" class = "com.tutorialsPoint.P2BeanScopes.HelloWorldPrototype" scope="prototype">-->
+<!--        <property name = "message" value = "Hello Milton!"/>-->
+<!--    </bean>-->
+
+<!--    <bean id = "helloWorld" class = "com.tutorialsPoint.P3BeanLifeCycle.BeanInitEg" init-method="init" destroy-method="des">-->
+<!--        <property name = "message" value = "Hello Milton!"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean id="beanPostPrcs" class="com.tutorialsPoint.P4BeanPostProcessor.BeanPrcsEg">-->
+<!--        <property name="message" value="Hello Milton Kabir"/>-->
+<!--    </bean>-->
+
+<!--    <bean class="com.tutorialsPoint.P4BeanPostProcessor.InitBeanPP"/>-->
+
+
+<!--    <bean id="polygon" class="com.tutorialsPoint.P5BeanInheritance.Polygon">-->
+<!--        <property name="pointA" ref="pointA"/>-->
+<!--        <property name="pointB" ref="pointB"/>-->
+<!--        <property name="pointC" ref="pointC"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="rectangle" class="com.tutorialsPoint.P5BeanInheritance.Rectangle" parent="polygon">-->
+<!--        <property name="pointD" ref="pointD"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="pointA" class="com.tutorialsPoint.P5BeanInheritance.Point">-->
+<!--        <property name="x" value="1"/>-->
+<!--        <property name="y" value="2"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="pointB" class="com.tutorialsPoint.P5BeanInheritance.Point">-->
+<!--        <property name="x" value="2"/>-->
+<!--        <property name="y" value="3"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean id="pointC" class="com.tutorialsPoint.P5BeanInheritance.Point">-->
+<!--        <property name="x" value="3"/>-->
+<!--        <property name="y" value="4"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="pointD" class="com.tutorialsPoint.P5BeanInheritance.Point">-->
+<!--        <property name="x" value="4"/>-->
+<!--        <property name="y" value="5"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="student" class="com.tutorialsPoint.P6RequiredAnnotations.Student">-->
+<!--        <property name="name" value="Milton Kabir"/>-->
+<!--        <property name="age" value="29"/>-->
+<!--    </bean>-->
+
+    <bean id="textEditor" class="com.tutorialsPoint.P7AutowiredAnnotation.TextEditor"/>
+    <bean id="spellChecker" class="com.tutorialsPoint.P7AutowiredAnnotation.SpellChecker"/>
+
+<!--    <bean id="messageClass" class="com.tutorialsPoint.P9EventHandling.MessageClass">-->
+<!--        <property name="message" value="Hello Milton Kabir"/>-->
+<!--    </bean>-->
+<!--    <bean id="cStartEventHandler" class="com.tutorialsPoint.P9EventHandling.CStartEventHandler"/>-->
+<!--    <bean id="cStopEventHandler" class="com.tutorialsPoint.P9EventHandling.CStopEventHandler"/>-->
+
+<!--    <bean id="customEventPublisher" class="com.tutorialsPoint.P10CustomEvent.CustomEventPublisher"/>-->
+<!--    <bean id="customEventHandler" class="com.tutorialsPoint.P10CustomEvent.CustomEventHandler"/>-->
+
+
+
+
+
+
+
+
+</beans>

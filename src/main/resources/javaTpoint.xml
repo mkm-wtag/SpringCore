@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <context:annotation-config/>
+
+<!--    <bean id="studentbean" class="com.javaTpoint.P1Basic.Student">-->
+<!--        <property name="name" value="Hasibur Rahman"/>-->
+<!--    </bean>-->
+<!--    <bean id="employee" class="com.javaTpoint.P2DICnst.Employee">-->
+<!--        <constructor-arg value="140116" type="int"/>-->
+<!--        <constructor-arg value="Milton Kabir"/>-->
+<!--    </bean>-->
+<!--    <bean id="address" class="com.javaTpoint.P3CIobj.Student">-->
+<!--        <constructor-arg value="Kushtia"/>-->
+<!--        <constructor-arg value="Khulna"/>-->
+<!--    </bean>-->
+<!--    <bean id="employee" class="com.javaTpoint.P3CIobj.Employee">-->
+
+<!--        <constructor-arg value="140116" type="int"/>-->
+<!--        <constructor-arg value="Milton Kabir"/>-->
+<!--        <constructor-arg ref="address"/>-->
+<!--    </bean>-->
+<!--    <bean id="student1" class="com.javaTpoint.P4CiCollection.Student">-->
+<!--        <constructor-arg value="Milton Kabir"/>-->
+<!--        <constructor-arg value="Kushtia Sadar"/>-->
+<!--    </bean>-->
+<!--    <bean id="student2" class="com.javaTpoint.P4CiCollection.Student">-->
+<!--        <constructor-arg value="Monju Islam"/>-->
+<!--        <constructor-arg value="Kumarkhali"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="zillaSomity" class="com.javaTpoint.P4CiCollection.ZillaSomity">-->
+<!--        <constructor-arg>-->
+<!--                <list>-->
+<!--                    <ref bean="student1"/>-->
+<!--                    <ref bean="student2"/>-->
+
+<!--                </list>-->
+<!--        </constructor-arg>-->
+<!--    </bean>-->
+<!--<bean id="ad" class="com.javaTpoint.P5DISI.Address">-->
+<!--    <property name="locality" value="Custom's Mor"/>-->
+<!--    <property name="area" value="Kushtia Sadar"/>-->
+<!--</bean>-->
+
+<!--<bean id="ee" class="com.javaTpoint.P5DISI.Employee">-->
+<!--    <property name="id" value="140116"/>-->
+<!--    <property name="name" value="Milton Kabir"/>-->
+<!--    <property name="city" value="Kushtia"/>-->
+<!--    <property name="address" ref="ad"/>-->
+<!--</bean>-->
+
+
+
+
+
+
+</beans>
