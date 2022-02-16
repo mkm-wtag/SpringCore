@@ -5,15 +5,6 @@ import com.javabrains.AOP.model.Triangle;
 
 public class ShapeService {
     private Circle circle;
-
-    public Triangle getTriangle() {
-        return triangle;
-    }
-
-    public void setTriangle(Triangle triangle) {
-        this.triangle = triangle;
-    }
-
     private Triangle triangle;
 
     public Circle getCircle() {
@@ -22,6 +13,14 @@ public class ShapeService {
 
     public void setCircle(Circle circle) {
         this.circle = circle;
+    }
+
+    public Triangle getTriangle() {
+        return triangle;
+    }
+
+    public void setTriangle(Triangle triangle) {
+        this.triangle = triangle;
     }
 
     @Override

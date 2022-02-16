@@ -10,11 +10,4 @@ public class Triangle {
     public void setName(String name) {
         this.name = name;
     }
-
-    @Override
-    public String toString() {
-        return "\nTriangle{" +
-                "\nname='" + name + '\'' +
-                "\n}";
-    }
 }

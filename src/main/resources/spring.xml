@@ -51,7 +51,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
     </bean>
 
     <bean name="circle" class="com.javabrains.AOP.model.Circle">
-<!--        <property name="name" value="Ellipsis"/>-->
+        <property name="name" value="Ellipsis"/>
     </bean>
 
     <bean name="shapeService" class="com.javabrains.AOP.service.ShapeService" autowire="byName"/>
