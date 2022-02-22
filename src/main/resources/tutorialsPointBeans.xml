@@ -21,9 +21,9 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-<!--    <bean id = "helloWorldPrototype" class = "com.tutorialsPoint.P2BeanScopes.HelloWorldPrototype" scope="prototype">-->
-<!--        <property name = "message" value = "Hello Milton!"/>-->
-<!--    </bean>-->
+    <bean id = "helloWorldPrototype" class = "com.tutorialsPoint.P2BeanScopes.HelloWorldPrototype" scope="prototype">
+        <property name = "message" value = "Hello Milton!"/>
+    </bean>
 
 <!--    <bean id = "helloWorld" class = "com.tutorialsPoint.P3BeanLifeCycle.BeanInitEg" init-method="init" destroy-method="des">-->
 <!--        <property name = "message" value = "Hello Milton!"/>-->

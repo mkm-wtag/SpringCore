@@ -1,7 +1,6 @@
 package com.journaldev.JDBC.dao;
 
 import com.journaldev.JDBC.model.Employee;
-import com.sun.xml.internal.ws.client.dispatch.DataSourceDispatch;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
