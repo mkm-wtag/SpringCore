@@ -10,29 +10,32 @@
 http://www.springframework.org/schema/aop
 http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
 
-    <aop:aspectj-autoproxy/>
+<!--    <aop:aspectj-autoproxy/>-->
 
-    <!--    <bean id="triangle" class="com.javabrains.Triangle">-->
-    <!--        <property name="pointA" ref="pointA"/>-->
-    <!--        <property name="pointB" ref="pointB"/>-->
-    <!--        <property name="pointC" ref="pointC"/>-->
-    <!--    </bean>-->
+        <bean id="triangle" class="com.javabrains.Triangle">
+            <constructor-arg name="pointA" ref="pointA"/>
+            <constructor-arg name="pointB" ref="pointB"/>
+            <constructor-arg name="pointC" ref="pointC"/>
 
-    <!--    <bean id="pointA" class="com.javabrains.Point">-->
-    <!--        <qualifier value="circleRelated"/>-->
-    <!--        <property name="x" value="0"/>-->
-    <!--        <property name="y" value="0"/>-->
-    <!--    </bean>-->
+        </bean>
 
-    <!--    <bean id="pointB" class="com.javabrains.Point">-->
-    <!--        <property name="x" value="5"/>-->
-    <!--        <property name="y" value="0"/>-->
-    <!--    </bean>-->
+        <bean id="pointA" class="com.javabrains.Point">
+            <qualifier value="circleRelated"/>
+            <property name="x" value="0"/>
+            <property name="y" value="0"/>
+        </bean>
 
-    <!--    <bean id="pointC" class="com.javabrains.Point">-->
-    <!--        <property name="x" value="0"/>-->
-    <!--        <property name="y" value="5"/>-->
-    <!--    </bean>-->
+        <bean id="pointB" class="com.javabrains.Point">
+            <property name="x" value="5"/>
+            <property name="y" value="0"/>
+        </bean>
+
+        <bean id="pointC" class="com.javabrains.Point">
+            <property name="x" value="0"/>
+            <property name="y" value="5"/>
+        </bean>
+
+
     <!--    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>-->
 
 
@@ -46,16 +49,16 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
     <!--                                        AOP                                     -->
 
 
-    <bean name="triangle" class="com.javabrains.AOP.model.Triangle">
-        <property name="name" value="Equilateral"/>
-    </bean>
+<!--    <bean name="triangle" class="com.javabrains.AOP.model.Triangle">-->
+<!--        <property name="name" value="Equilateral"/>-->
+<!--    </bean>-->
 
-    <bean name="circle" class="com.javabrains.AOP.model.Circle">
-        <property name="name" value="Ellipsis"/>
-    </bean>
+<!--    <bean name="circle" class="com.javabrains.AOP.model.Circle">-->
+<!--        <property name="name" value="Ellipsis"/>-->
+<!--    </bean>-->
 
-    <bean name="shapeService" class="com.javabrains.AOP.service.ShapeService" autowire="byName"/>
-    <bean name="loggingAspect" class="com.javabrains.AOP.aspect.LoggingAspect"/>
+<!--    <bean name="shapeService" class="com.javabrains.AOP.service.ShapeService" autowire="byName"/>-->
+<!--    <bean name="loggingAspect" class="com.javabrains.AOP.aspect.LoggingAspect"/>-->
 
 
 </beans>

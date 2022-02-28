@@ -21,7 +21,7 @@ public class TransactionManagerMain {
         Address address=new Address();
         address.setId(140116);
         address.setCountry("Bangladesh");
-        address.setAddress("298, Jhenaidaha Road, Customs Mor, Kushtia");
+        address.setAddress("Kushtia");
         customer.setAddress(address);
         return customer;
     }

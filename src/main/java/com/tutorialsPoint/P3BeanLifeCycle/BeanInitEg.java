@@ -6,6 +6,10 @@ import org.springframework.beans.factory.InitializingBean;
 public class BeanInitEg implements InitializingBean, DisposableBean {
     private String message;
 
+    public BeanInitEg(String message) {
+        this.message = message;
+    }
+
     public String getMessage() {
         return message;
     }
@@ -14,27 +18,24 @@ public class BeanInitEg implements InitializingBean, DisposableBean {
         this.message = message;
     }
 
-    @Override
-    public String toString() {
-        return "HelloWorld{" +
-                "message='" + message + '\'' +
-                '}';
-    }
 
     @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println("Bean has been initialized");
+
     }
 
-    public void init(){
+    public void init() {
         System.out.println("Manually initialize function");
+
     }
 
     @Override
     public void destroy() throws Exception {
         System.out.println("BEan has been destroyed");
     }
-    public  void des(){
+
+    public void des() {
         System.out.println("manually destroyed");
     }
 }

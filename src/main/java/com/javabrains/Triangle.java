@@ -1,40 +1,52 @@
 package com.javabrains;
 
-public class Triangle implements Shape {
-    private Point pointA, pointB, pointC;
+public class Triangle {
+    private Point poinA, poinB, poinC;
 
-    public Point getPointA() {
-        return pointA;
+    public Triangle(Point pointA, Point pointB, Point pointC) {
+        this.poinA = pointA;
+        this.poinB = pointB;
+        this.poinC = pointC;
+    }
+
+//
+//    public Point getPointA() {
+//        return pointA;
+//    }
+//
+//
+//
+//    public void setPointA(Point pointA) {
+//        this.pointA = pointA;
+//    }
+//
+//    public Point getPointB() {
+//        return pointB;
+//    }
+//
+//    public void setPointB(Point pointB) {
+//        this.pointB = pointB;
+//    }
+//
+//    public Point getPointC() {
+//        return pointC;
+//    }
+//
+//    public void setPointC(Point pointC) {
+//        this.pointC = pointC;
+//    }
+
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "\npointA=" + poinA +
+                "\npointB=" + poinB +
+                "\npointC=" + poinC +
+                "\n}";
     }
 
 
-
-    public void setPointA(Point pointA) {
-        this.pointA = pointA;
-    }
-
-    public Point getPointB() {
-        return pointB;
-    }
-
-    public void setPointB(Point pointB) {
-        this.pointB = pointB;
-    }
-
-    public Point getPointC() {
-        return pointC;
-    }
-
-    public void setPointC(Point pointC) {
-        this.pointC = pointC;
-    }
-
-    public void draw() {
-        System.out.println("Coordinates of Triangle are");
-        System.out.println("PointA is " + getPointA());
-        System.out.println("PointB is " + getPointC());
-        System.out.println("PointC is " + getPointC());
-    }
 //    @Override
 //    public void afterPropertiesSet() throws Exception {
 //        System.out.println("Initializing  init method called for Triangle.");

@@ -17,7 +17,7 @@ public class EmployeeDao {
     }
 
     public List<Employee> getAllEmployees(){
-        return jdbcTemplate.query("select * from employee",new ResultSetExtractor<List<Employee>>(){
+        return jdbcTemplate.query("select * from people",new ResultSetExtractor<List<Employee>>(){
             @Override
             public List<Employee> extractData(ResultSet rs) throws SQLException,
                     DataAccessException {
