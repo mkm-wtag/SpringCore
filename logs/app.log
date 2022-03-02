@@ -1,0 +1,2 @@
+2022-03-02 11:21:31,718 ERROR c.l.l.MyBean [main] Error Message!
+2022-03-02 11:21:31,722 FATAL c.l.l.MyBean [main] Fatal Message!

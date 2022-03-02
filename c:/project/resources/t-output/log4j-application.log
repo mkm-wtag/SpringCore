@@ -1,0 +1,32 @@
+2022-03-02 11:35:13 INFO  MainApp:21 - Going to create HelloWorld Object
+2022-03-02 11:35:13 WARN  MainApp:15 - Warn Message!
+2022-03-02 11:35:13 ERROR MainApp:16 - Error Message!
+2022-03-02 11:35:13 FATAL MainApp:17 - Fatal Message!
+2022-03-02 11:36:13 INFO  MainApp:20 - Going to create HelloWorld Object
+2022-03-02 11:36:13 DEBUG MainApp:12 - Debug Message!
+2022-03-02 11:36:13 INFO  MainApp:13 - Info Message!
+2022-03-02 11:36:13 WARN  MainApp:14 - Warn Message!
+2022-03-02 11:36:13 ERROR MainApp:15 - Error Message!
+2022-03-02 11:36:13 FATAL MainApp:16 - Fatal Message!
+2022-03-02 11:36:33 DEBUG MainApp:12 - Debug Message!
+2022-03-02 11:36:33 INFO  MainApp:13 - Info Message!
+2022-03-02 11:36:33 WARN  MainApp:14 - Warn Message!
+2022-03-02 11:36:33 ERROR MainApp:15 - Error Message!
+2022-03-02 11:36:33 FATAL MainApp:16 - Fatal Message!
+2022-03-02 11:37:05 WARN  MainApp:15 - Warn Message!
+2022-03-02 11:37:05 ERROR MainApp:16 - Error Message!
+2022-03-02 11:37:05 FATAL MainApp:17 - Fatal Message!
+2022-03-02 11:38:04 ERROR MainApp:16 - Error Message!
+2022-03-02 11:38:04 FATAL MainApp:17 - Fatal Message!
+2022-03-02 11:43:43 TRACE MainApp:? - Trace Message!
+2022-03-02 11:43:43 DEBUG MainApp:13 - Debug Message!
+2022-03-02 11:43:43 INFO  MainApp:14 - Info Message!
+2022-03-02 11:43:43 WARN  MainApp:15 - Warn Message!
+2022-03-02 11:43:43 ERROR MainApp:16 - Error Message!
+2022-03-02 11:43:43 FATAL MainApp:17 - Fatal Message!
+2022-03-02 11:44:08 TRACE MainApp:? - Trace Message!
+2022-03-02 11:44:08 DEBUG MainApp:13 - Debug Message!
+2022-03-02 11:44:08 INFO  MainApp:14 - Info Message!
+2022-03-02 11:44:08 WARN  MainApp:15 - Warn Message!
+2022-03-02 11:44:08 ERROR MainApp:16 - Error Message!
+2022-03-02 11:44:08 FATAL MainApp:17 - Fatal Message!
